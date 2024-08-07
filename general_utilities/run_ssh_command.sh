@@ -14,4 +14,3 @@ if [ ${SSH_RETURN_CODE} -eq 0 ]; then
 else
     echo "Command failed with exit code ${SSH_RETURN_CODE}"
 fi
-
